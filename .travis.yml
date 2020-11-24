@@ -3,4 +3,6 @@ language: java
 jdk:
   - openjdk11
 
-script: bundle exec rake build 
+script:
+- bundle exec rake build
+- bundle exec rake builddoc
